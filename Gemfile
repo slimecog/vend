@@ -15,11 +15,16 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
-  gem 'rspec-rails'
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'pry-rails'
+  gem 'rspec-rails'
   gem 'capybara'
   gem 'launchy'
+  gem 'shoulda-matchers', '~> 3.1'
+  gem 'pry'
+  gem 'active-designer'
+  gem 'database_cleaner'
+  gem 'sqlite3'
 end
 
 group :development do
