@@ -10,6 +10,6 @@ class MachinesController < ApplicationController
   private
 
     def average_price
-      average(self.snacks.price)
+      # average(self.snacks.price)
     end
 end
